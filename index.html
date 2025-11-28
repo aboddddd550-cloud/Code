@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>لعبة الكلمات - شبيهة Codenames</title>
+
+  <link rel="stylesheet" href="Css/style.css">
+  <style>
+    body { font-family: sans-serif; direction: rtl; background: #f3f4f6; padding: 20px; }
+    h1 { text-align: center; }
+    #board { 
+      display: grid; 
+      grid-template-columns: repeat(5, 1fr); 
+      gap: 10px; 
+      max-width: 600px; 
+      margin: 20px auto; 
+    }
+    .card { 
+      background: white; 
+      padding: 20px; 
+      border-radius: 10px; 
+      text-align: center; 
+      font-weight: bold; 
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>لعبة الكلمات</h1>
+
+  <div id="board"></div>
+
+  <script src="Js/app.js"></script>
+
+</body>
+</html>
